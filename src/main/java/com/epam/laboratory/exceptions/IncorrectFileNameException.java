@@ -1,8 +1,8 @@
 package com.epam.laboratory.exceptions;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
-public class IncorrectFileNameException extends FileNotFoundException {
+public class IncorrectFileNameException extends IOException {
 
     public IncorrectFileNameException(String message) {
         super(message);
